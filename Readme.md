@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Наташа Семенова](https://up.htmlacademy.ru/htmlcss/36/user/2285705).
-* Наставник: `Анастасия Титова`.
+* Наставник: [Анастасия Титова](https://htmlacademy.ru/profile/asiatitova).
 
 ---
 
