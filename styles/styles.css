@@ -33,6 +33,7 @@ body{
  font-family: "PT Sans", sans-serif;
  font-size: 18px;
  line-height: 21px;
+ font-weight: 400;
  color: #333333 ;
  background: #FFFFFF;
 }
@@ -73,12 +74,15 @@ color: #000000;
 background: #756157;
 width: 160px;
 height: 36px;
-color: #FFFFFF;
-font-weight: 700;
-font-size: 16px;
-line-height: 20px;
-text-align: center;
-text-transform: uppercase;
+}
+
+.button-text{
+ font-weight: 700;
+ font-size: 16px;
+ line-height: 20px;
+ text-align: center;
+ text-transform: uppercase;
+ color: #FFFFFF;
 }
 
 /*main-index*/
@@ -252,5 +256,113 @@ line-height: 40px;
 text-align: center;
 text-transform: uppercase;
 text-decoration: none;
+color: #000000;
+}
+
+.filter{
+  background-image: url("../images/filtr.jpg");
+  background-color: #756157;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  color: #FFFFFF;
+}
+
+.breadcrumbs,
+.catalog-filter-list,
+.catalog-filter-list{
+list-style: none;
+}
+
+.inner-header{
+font-weight: 700;
+font-size: 60px;
+line-height: 78px;
+}
+
+.breadcrumbs-link{
+font-weight: 400;
+font-size: 16px;
+line-height: 21px;
+text-decoration: none;
+color: #FFFFFF;
+}
+
+.catalog-fieldset-title{
+font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+text-transform: capitalize;
+}
+
+.control{
+font-weight: 400;
+font-size: 18px;
+line-height: 23px;
+}
+
+.button-filter{
+background: #82B3D3;
+width: 191px;
+height: 36px;
+}
+
+.search{
+font-weight: 700;
+font-size: 30px;
+line-height: 36px;
+color: #000000;
+}
+
+.visual,
+.hotel-list{
+list-style: none;
+}
+
+.hotel-card-link{
+text-decoration: none;
+background-color: #756157;
+}
+
+.hotel-card-title{
+font-weight: 700;
+font-size: 24px;
+line-height: 28px;
+color: #000000;
+}
+
+.hotel-card-button{
+background: #82B3D3;
+width: 140px;
+height: 36px;
+}
+
+.pagination-link{
+text-decoration: none;
+font-weight: 700;
+font-size: 20px;
+line-height: 36px;
+text-align: center;
+text-transform: uppercase;
+color: #FFFFFF;
+background: #82B3D3;
+}
+
+
+.pagination{
+list-style: none;
+}
+
+
+.pagination-current{
+color: #000000;
+background: #F2F2F2;
+}
+
+.three-dots{
+font-weight: 400;
+font-size: 22px;
+line-height: 26px;
+align-items: center;
+text-align: center;
 color: #000000;
 }

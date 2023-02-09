@@ -43,21 +43,23 @@
         </ul>
       </nav>
     </header>
+    <!--main-inner-->
     <main class="main-inner">
+      <section class="filter">
       <h1 class="inner-header">Гостиницы Седоны</h1>
       <ul class="breadcrumbs">
         <li class="breadcrumbs-item">
           <a class="breadcrumbs-link visually-hidden" href="index.html">На главную</a>
         </li>
         <li class="breadcrumbs-item">
-          <a class="breadcrumbs-link">Гостиницы</a>
+          <a class="breadcrumbs-link" href="#">Гостиницы</a>
         </li>
       </ul>
       <section class="service-catalog">
         <h2 class="visually-hidden">Список услуг гостиниц с фильтрами</h2>
         <form class="catalog-filter" action="https://echo.htmlacademy.ru/" method="get">
           <fieldset class="catalog-filter-group">
-            <legend class="catalog-fieldset-titl">Инфраструктура</legend>
+            <legend class="catalog-fieldset-title">Инфраструктура</legend>
             <ul class="catalog-filter-list">
               <li class="catalog-filter-item">
                 <label class="control">
@@ -90,21 +92,28 @@
               </li>
               <li class="catalog-filter-item">
                 <label class="control">
+                  <input class="control-input" type="radio" name="housing-type" value="motel">
+                   Мотель
+                </label>
+              </li>
+              <li class="catalog-filter-item">
+                <label class="control">
                   <input class="control-input" type="radio" name="housing-type" value="apartment">
                   Апартаменты
                 </label>
               </li>
             </ul>
           </fieldset>
-          <button class="button" type="submit">Применить</button>
-          <button class="button reset" type="reset">Сбросить</button>
-        </form>
+          <button class="button-filter" type="submit"><span class="button-text">Применить</span></button>
+          <button class="button-filter reset" type="reset"><span class="button-text">Сбросить</span></button>
+          </form>
+        </section>
       </section>
       <section class="main-hotel-card">
         <h2 class="visually-hidden">Карточки с гостиницами</h2>
         <div>
           <span class="search">Найдено гостиниц:</span>
-          <span class="search-result">38</span>
+          <span class="search result">38</span>
         </div>
         <select class="select-control">
           <option value="cheap">Сначала дешёвое</option>
@@ -136,13 +145,13 @@
             </a>
             <p class="hotel-card-name">Гостиница</p>
             <b class="hotel-card-price">От 4000₽</b>
-            <a class="hotel-card-link" href="#">Подробнее</a>
+            <a class="hotel-card-link" href="#"><span class="button-text">Подробнее</span></a>
             <button class="hotel-card-button" type="button">
               <span class="button-text">
                 В избранное
               </span>
             </button>
-            <img src="#" alt="четыре звезды">
+            <img src="images/four-stars.svg" alt="четыре звезды">
             <div class="raiting">
               <p>Рейтинг: 8,5</p>
             </div>
@@ -154,13 +163,13 @@
             </a>
             <p class="hotel-card-name">Гостиница</p>
             <b class="hotel-card-price">От 5000₽</b>
-            <a class="hotel-card-link" href="#">Подробнее</a>
+            <a class="hotel-card-link" href="#"><span class="button-text">Подробнее</span></a>
             <button class="hotel-card-button" type="button">
               <span class="button-text">
                 В избранное
               </span>
             </button>
-            <img src="#" alt="четыре звезды">
+            <img src="images/four-stars.svg" alt="четыре звезды">
             <div class="raiting">
               <p>Рейтинг: 9,2</p>
             </div>
@@ -172,13 +181,13 @@
             </a>
             <p class="hotel-card-name">Гостиница</p>
             <b class="hotel-card-price">От 2500₽</b>
-            <a class="hotel-card-link" href="#">Подробнее</a>
+            <a class="hotel-card-link" href="#"><span class="button-text">Подробнее</span></a>
             <button class="hotel-card-button" type="button">
               <span class="button-text">
                 В избранное
               </span>
             </button>
-            <img src="#" alt="три звезды">
+            <img src="images/three-stars.svg" alt="три звезды">
             <div class="raiting">
               <p>Рейтинг: 6,9</p>
             </div>
@@ -190,13 +199,13 @@
             </a>
             <p class="hotel-card-name">Гостиница</p>
             <b class="hotel-card-price">От 1500₽</b>
-            <a class="hotel-card-link" href="#">Подробнее</a>
+            <a class="hotel-card-link" href="#"><span class="button-text">Подробнее</span></a>
             <button class="hotel-card-button" type="button">
               <span class="button-text">
                 В избранное
               </span>
             </button>
-            <img src="#" alt="две звезды">
+            <img src="images/two-stars.svg" alt="две звезды">
             <div class="raiting">
               <p>Рейтинг: 5,0</p>
             </div>
@@ -217,13 +226,15 @@
           </li>
         </ol>
         <div class="dots">
-          <span>...</span>
+          <span class="three-dots">...</span>
         </div>
       </section>
-      <section class="newsletter">
+      <!--newsletter-catalog-->
+      <section class="newsletter-catalog">
         <h2 class="visually-hidden">Новостная рассылка</h2>
-        <div class="newsletter">
-          <p class="descriotion-text">
+        <div class="newsletter-catalog">
+          <h2 class="description-title">Подпишитесь на рассылку</h2>
+          <p class="index-text">
             Только полезная информация и никакого спама, честное бойскаутское!
           </p>
         </div>
