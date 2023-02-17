@@ -404,10 +404,10 @@ width: 1200px;
 }
 
 .search-conteiner{
-display: flex;
-width: 1060px;
-margin: 0 auto;
-justify-content: space-between;
+  display: flex;
+  width: 1060px;
+  margin: 0 auto;
+  justify-content: space-between;
 }
 
 .select-control{
