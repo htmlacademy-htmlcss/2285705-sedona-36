@@ -126,12 +126,14 @@ display: flex;
   padding: 22px 12px;
   background-image: url("../images/search.svg");
   background-repeat: no-repeat;
+  display: block;
 }
 
 .navigation-heart{
   padding: 22px 12px;
   background-image: url("../images/heart.svg");
   background-repeat: no-repeat;
+  display: block;
  }
 
  .notification-badge{
@@ -163,13 +165,16 @@ display: flex;
 
 .logo-promo{
   display: block;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
   }
 
 .promo{
   background-image: url("../images/index-background.jpg");
   background-size: 100% auto;
   background-repeat: no-repeat;
-  padding: 51px 371px 82px;
+  padding: 51px 0 82px;
   background-color:#82B3D3;
 }
 
@@ -196,8 +201,11 @@ display: flex;
   line-height: 26px;
   text-align: center;
   max-width: 651px;
-  margin-top: 20px;
 }
+
+.index-text-search{
+  margin-bottom: 54px;
+  }
 
 /*advantages-item*/
 
@@ -223,12 +231,10 @@ display: flex;
 }
 
 .advantages-description-sity{
-  max-height: 38px;
   padding: 102px 85px;
 }
 
 .advantages-text{
-  margin-bottom: 30px;
   text-align: center;
 }
 
@@ -251,6 +257,7 @@ display: flex;
   text-align: center;
   text-transform: uppercase;
   padding: 0 27.5px 30px;
+  margin-bottom: 32px;
 }
 
 .diablo{
@@ -381,6 +388,7 @@ margin-top: 54px;
   display: flex;
   justify-content: space-between;
   padding: 40px 70px 30px;
+  align-items: center;
 }
 
 .footer-social-list{
@@ -417,10 +425,6 @@ margin-top: 54px;
 
 .footer-link{
   display: block;
-}
-
-.htmlacademy{
-  max-width: 115px;
 }
 
 .filter{
@@ -635,6 +639,8 @@ align-items: center;
   text-transform: uppercase;
   color: #FFFFFF;
   background: #82B3D3;
+  display: block;
+  padding: 11.36px 26.50px;
 }
 
 
@@ -644,13 +650,16 @@ align-items: center;
 }
 
 .pagination-item{
-  padding: 11.36px 26.50px;
   margin-right: 8px;
 }
 
 .pagination-current{
   color: #000000;
   background: #F2F2F2;
+}
+
+.dots{
+  padding: 11.36px 26.50px;
 }
 
 .three-dots{
