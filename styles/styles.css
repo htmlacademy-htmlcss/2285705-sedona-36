@@ -1221,7 +1221,7 @@ padding-right: 40px;
   left: 157px;
 }
 
-.children{
+.children-container{
   width: 242px;
   height: 48px;
   display: flex;
@@ -1234,11 +1234,6 @@ padding-right: 40px;
   display: flex;
 }
 
-.modal-number-children{
-  position: absolute;
-  top: 356px;
-  right: 70px;
-}
  .number{
   width: 31px;
   height: 48px;
@@ -1359,7 +1354,7 @@ padding-right: 40px;
   position: absolute;
   top: 52px;
   right: 42px;
-  display: none;;
+  display: none;
 }
 
 .tooltip-text::before{
