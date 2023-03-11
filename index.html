@@ -206,12 +206,12 @@
           <form class="auth-form" action="https://echo.htmlacademy.ru/courses" method="post">
             <label class="arrival" for="arrival">
               <span class="modal-form-text">Дата Заезда:</span>
-              <input class="modal-input" type="text" name="arrival" id="arrival" placeholder="Укажите дату">
+              <input class="modal-input" type="text" name="arrival" id="arrival" placeholder="Укажите дату" value="27 апреля 2020">
               <span class="modal-text modal-text-arrival">Мы не можем отправить вас в прошлое.</span>
             </label>
             <label class="departure" for="departure">
               <span class="modal-form-text">Дата Выезда:</span>
-              <input class="modal-input" type="text" name="departure" id="departure" placeholder="Укажите дату">
+              <input class="modal-input" type="text" name="departure" id="departure" placeholder="Укажите дату" value="1 сентября 2023">
              <span class="modal-text">На эти даты есть свободные номера. Пока есть.</span>
             </label>
             <div class="adults">
@@ -220,8 +220,8 @@
             </label>
             <div class="modal-number">
                 <button class="button-number" type="button"><span class="visually-hidden">Убрать</span></button>
-                 <input class="number" type="number" name="adults" id="adults">
-                <button class="button-number" type="button"><span class="visually-hidden">Добавить</span></button>
+                 <input class="number" type="number" name="adults" id="adults" value="2">
+                <button class="button-number" type="button"><span class="plus visually-hidden">Добавить</span></button>
               </div>
             </div>
             <div class="children-container">
@@ -242,8 +242,8 @@
                </label>
               </span>
                <div class="modal-number modal-number-children">
-               <button class="button-number" type="button"><span class="visually-hidden">Убрать</span></button>
-              <input class="number" type="number" name="children" id="children">
+               <button class="button-number" type="button"><span class="minus visually-hidden">Убрать</span></button>
+              <input class="number" type="number" name="children" id="children" value="2">
               <button class="button-number" type="button"><span class="visually-hidden">Добавить</span></button>
               </div>
              </div>
@@ -252,5 +252,6 @@
         </section>
       </div>
     </div>
+    <script src="js/modal.js"></script>
   </body>
 </html>
