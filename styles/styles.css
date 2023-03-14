@@ -346,7 +346,6 @@ button:disabled {
 
 .description-welcome {
   padding: 62px 347.5px;
-  margin-bottom: 3px;
 }
 
 .services-list {
@@ -482,8 +481,7 @@ button:disabled {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 96px 309px;
-  margin-bottom: 2px;
+  padding: 96px 309px 98px;
 }
 
 .newsletter-form {
@@ -815,7 +813,7 @@ button:disabled {
   position: relative;
   display: flex;
   height: 48px;
-  margin-bottom: 48px;
+  margin-bottom: 45px;
 }
 
 .cost-control label {
@@ -911,7 +909,7 @@ input::-webkit-inner-spin-button {
 
 .range-toggle {
   position: absolute;
-  top: -12px;
+  top: -9px;
   width: 20px;
   height: 20px;
   cursor: pointer;
