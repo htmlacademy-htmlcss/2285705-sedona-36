@@ -496,7 +496,7 @@ button:disabled {
   height: 53px;
   background: #F2F2F2;
   padding: 14px 18px;
-  font-family: 'PT Sans';
+  font-family: 'PT Sans', 'Arial', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -791,6 +791,15 @@ button:disabled {
   height: 10px;
   background-color: #3F5E72;
   border-radius: 6px;
+}
+
+.control-input[type="checkbox"]:focus + .control-mark {
+  outline: 3px solid #83B3D3;
+  border-radius: 4px;
+}
+.control-input[type="radio"]:focus + .control-radio {
+  outline: 3px solid #83B3D3;
+  border-radius: 18px;
 }
 
 .cost {
@@ -1699,13 +1708,19 @@ input[type="number"]:focus {
   border-radius: 4px;
 }
 
-.hotel-card:focus {
+.hotel-card-button:focus {
   background: #68A2CA;
   border-radius: 4px;
 }
 
-.hotel-card:disabled {
+.hotel-card-button:active {
+  background-color: #82B3D3;
+  border-radius: 4px;
+}
+
+.hotel-card-button:disabled {
   background: #E5E5E5;
+  color: rgba(255, 255, 255, 0.3);
   border-radius: 4px;
 }
 
